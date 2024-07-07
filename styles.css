@@ -1,0 +1,46 @@
+hr {
+  background-color: black;
+}
+body {
+  padding: 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 auto;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header {
+  margin-top: 10px;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.project-details {
+  margin: 0;
+}
